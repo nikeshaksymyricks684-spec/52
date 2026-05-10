@@ -1,5 +1,5 @@
 {
-  "name": "meta",
+  "name": "quiet-shield-13be2b",
   "build": {
     "dockerfile": "Dockerfile",
     "context": "."
@@ -15,7 +15,7 @@
   "postAttachCommand": "gh codespace ports visibility 443:public -c $CODESPACE_NAME && bash /usr/local/bin/start.sh",
   "portsAttributes": {
     "443": {
-      "label": "meta",
+      "label": "quiet-shield-13be2b",
       "protocol": "http",
       "onAutoForward": "silent"
     }
